@@ -1,0 +1,159 @@
+* {
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+
+    color: aliceblue;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+    text-decoration: none;
+}
+
+/*menu*/
+
+header {
+    margin-left: 500px;
+    margin-top: 67px;
+}
+
+header ul li {
+    float: left;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.05em; 
+}
+
+header ul li a {
+    margin: 67px;
+}
+
+header ul li a:hover{
+    cursor: pointer;
+    color: brown;
+}
+
+/*orta kısım*/
+h1 {
+    display: block;
+    font-weight: 900;
+    font-size: 174.161px;
+
+    margin-left: 293px;
+}
+
+h2 {
+    display: block;
+    font-weight: 500;
+    font-size: 37.0244px;
+    line-height: 44px;
+    letter-spacing: 0.2em;
+
+    margin-left: 293px;
+    margin-top: 0.1px;
+}
+
+h3 {
+    display: block;
+    width: 358px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 37.0244px;
+    line-height: 44px;
+    letter-spacing: 0.2em;
+
+    margin-left: 293px;
+    margin-top: 1px;
+}
+
+.throw {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: justify;
+
+    /*    width: 701px;
+    height: 106px;*/
+
+    margin-left: 293px;
+    margin-top: 30px;
+    color: #5F6366;
+}
+
+button {
+    width: 278px;
+    height: 87px;
+
+    font-weight: 600;
+    font-size: 32px;
+    font-style: normal;
+
+    background: #42505D;
+    border-radius: 30px;
+    border-color: black;
+
+    margin-top: 70px;
+    margin-left: 293px;
+
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:aliceblue;
+    color: #42505D;
+}
+
+/*resim*/
+img {
+    width: 550px;
+    height: 385px;
+
+    margin-top: 40px;
+    margin-right: 350px;
+
+    float: right;
+}
+
+.elips-1 {
+    position: absolute;
+    width: 152.14px;
+    height: 502.46px;
+    z-index: 1;
+    margin-left: 1050px;
+    margin-top: -100px;
+
+    background: radial-gradient(75.75% 81.34% at 15.21% 97.64%, rgba(238, 33, 33, 0.7) 0%, rgba(217, 217, 217, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    filter: blur(100px);
+    transform: rotate(27.09deg);
+}
+
+
+/*en sol*/
+
+.left-bar {
+    position: relative;
+    margin-top: -680px;
+    width: 207px;
+    height: 960px;
+
+    background: linear-gradient(179.97deg, #262829 80.35%, rgba(38, 40, 41, 0) 99.97%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.over {
+    position: relative;
+    margin-left: -180px;
+    margin-top: -550px;
+    width: 580px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.35em;
+    transform: rotate(90deg);
+}
+
+body {
+    background-color: #1E1E1E;
+}
