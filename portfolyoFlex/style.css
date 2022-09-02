@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    text-decoration: none;
+    list-style-type: none;
+    border: 0;
+}
+
+header {
+    margin-top: 125px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 25px;
+    background-color: rgb(15, 61, 62);
+}
+
+header ul {
+    display: flex;
+    /* justify-content:space-evenly; */
+    justify-content: space-around;
+    border-radius: 5px;
+    height: 40px;
+}
+
+header ul li{
+    text-align: center;
+}
+
+header ul li:hover {
+    background-color: rgb(9, 37, 37);
+
+    dis
+}
+
+.nav {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#anasayfa {
+    background-color: rgb(9, 37, 37);
+}
+
+/*ORTA KISIM*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+
+.flex-container > h1, p, div {
+    text-align: start;
+    margin-left: 150px;
+    padding: 20px;
+}
+
+.flex-container > h1 {
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+.flex-container > p {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/*buton*/
+
+.btn-7 {
+    background: linear-gradient(0deg, rgb(15, 61, 62) 0%, rgb(15, 61, 62) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+.btn-7 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgb(15, 61, 62);
+    box-shadow:
+    -7px -7px 20px 0px rgba(255,255,255,.9),
+    -4px -4px 5px 0px rgba(255,255,255,.9),
+    7px 7px 20px 0px rgba(0,0,0,.2),
+    4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+}
+.btn-7:before{
+    height: 0%;
+    width: 2px;
+}
+.btn-7:after {
+    width: 0%;
+    height: 2px;
+}
+.btn-7:hover{
+    color: rgb(15, 61, 62);
+    background: transparent;
+}
+.btn-7:hover:before {
+    height: 100%;
+}
+.btn-7:hover:after {
+    width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgb(15, 61, 62);
+    box-shadow:
+    -7px -7px 20px 0px rgba(255,255,255,.9),
+    -4px -4px 5px 0px rgba(255,255,255,.9),
+    7px 7px 20px 0px rgba(0,0,0,.2),
+    4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+}
+.btn-7 span:before {
+    width: 2px;
+    height: 0%;
+}
+.btn-7 span:after {
+    height: 2px;
+    width: 0%;
+}
+.btn-7 span:hover:before {
+    height: 100%;
+}
+.btn-7 span:hover:after {
+    width: 100%;
+}
+.custom-btn {
+    width: 160px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline:invert;
+}
+
+img {
+    position: relative;
+    height: 450px;
+    float: right;
+    border-radius: 15px;
+    margin-top: -400px;
+    margin-right: 340px;
+}
+
+
+/*footer*/
+
+footer {
+    display: flex;
+    margin-top: 221px;
+    background-color: rgb(15, 61, 62);
+}
+
+footer > p {
+    color: aliceblue;
+    letter-spacing: 5px;
+    font-weight: 700;
+    
+}
