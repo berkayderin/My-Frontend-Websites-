@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500;600;700&display=swap');
+
+/*    font-family: 'Cuprum', sans-serif;*/
+
+/*resetcss*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+/*reset css end*/
+
+* {
+    background-color: #28293E;
+    color: #fff;
+}
+
+/*header start*/
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cuprum', sans-serif;
+    margin-top: 50px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#serv {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 1.5rem;
+
+    background-color: #FF3366;
+    padding: 17.5px 40.5px;
+    border-radius: 7px;
+}
+/*header end*/
+
+.sect {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+
+    font-family: 'Cuprum', sans-serif;
+}
+
+h1, h3{
+    margin-left: 235px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.mail {
+    margin-left: 235px;
+
+    
+    box-sizing: border-box;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15.5px 16px;
+    gap: 10px;
+
+    width: 250px;
+    height: 55px;
+    left: 125px;
+    top: 606px;
+
+    border: 1px solid #FCFCFF;
+    border-radius: 7px;
+    }
+
+h3 {
+    font-size: 1.2rem;
+    color: #D5D5D6;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+img {
+    margin-left: 385px;
+    height: 732px;
+    width: 732px;
+    z-index: 1;
+}
+
+.btn-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    left: 500px;
+    top: 587px;
+
+    background: #FF3366;
+    border-radius: 7px;
+
+    font-size: 1.2rem;
+} 
+
+#elips {
+    position: absolute;
+    width: 296px;
+    height: 296px;
+    left: 1200px;
+    top: 244px;
+
+    background: #924FFF;
+    filter: blur(175px);
+    z-index: 2;
+}
+
+#elips2 {
+    
+    position: absolute;
+    width: 296px;
+    height: 296px;
+    left: 1100px;
+    top: 382px;
+
+    background: #FF9CE3;
+    filter: blur(175px);
+    z-index: 3;
+}
