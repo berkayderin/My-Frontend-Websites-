@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    font-family: 'Manrope', sans-serif;
+    color: #2B2B2B;
+    }
+
+:focus{
+    outline: 0;
+}
+
+body {
+    background: #FAFAFA;
+}
+
+/*color packet*/
+.bg-color {
+    background-color: #FF6600;
+}
+
+.txt-color {
+    color: #FF6600;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2rem; 
+    font-weight: 400;
+}
+
+header img {
+    width: 239px;
+    height: 76px;
+}
+
+header ul {
+    display: flex;
+    gap: 24px;
+    margin-right: 170px;
+    margin-left: 170px;
+}
+
+
+/*buton sign up*/
+.bn632-hover {
+    width: 160px;
+    font-size: 1rem !important;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+
+    margin: 20px;
+    height: 55px;
+
+    text-align:center;
+    border: none;
+    
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn19 {
+    background-image: linear-gradient(
+        to right,
+        #f5ce62,
+        #e43603,
+        #fa7199,
+        #e85a19
+    );
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+/*buton sign up*/
+
+/*start üst kısım*/
+
+.ust-kisim {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 500px;
+}
+
+.sol-ust-kisim {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 60px;
+}
+
+.sol-ust-kisim h1 {
+    font-size: 4rem; 
+    font-weight: 800;
+}
+
+.sol-ust-kisim p {
+    font-size: 1.2rem; 
+    font-weight: 400;
+
+    color: #5B5B5B;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sag-ust-kisim img {
+    width: 696px;
+    height: 390px;
+}
+/* üst kısım bitti*/
+
+/* sponsor başla*/
+.sponsor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 24px;
+    height: 100px;
+}
+
+.dik-cizgi {  
+    width: 57px;
+    height: 0px;
+
+    border: 2px solid #C0C5D2;
+    transform: rotate(90deg);
+}
+
+.sponsor1 {
+    width: 169px;
+    height: 43px;
+}
+
+.sponsor2 {
+    width: 234px;
+    height: 47px;
+}
+
+.sponsor3 {
+    width: 169px;
+    height: 51px;
+}
+
+.sponsor4 {
+    width: 175px;
+    height: 37px;
+}
+
+/*hakkimizda başla*/
+
+.hakkimizda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+
+}
+
+.sol-hakkimizda img {
+    margin-right: 250px;
+    width: 546px;
+    height: 331px;
+}
+
+.sag-hakkimizda {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sag-hakkimizda h1 {
+    font-size: 3.3rem; /*52px*/
+    font-weight: 800;
+}
+
+.sag-hakkimizda h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    color: #5B5B5B;
+}
+
+.kutu-hakkimizda {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 550px;
+    height: 132px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 9px 4px rgba(239, 235, 235, 0.25);
+}
+
+.kutu-hakkimizda-baslik {
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    color: #5B5B5B;
+    text-align: center;
+}
+
+.kutu-hakkimizda-sayi {
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    color: #FF6600;
+    text-align: center;
+}
+
+.dik-cizgi-2 {
+    height: 80px;
+    border: 3px solid #FF6600;
+}
+
+/*hakkimizda bitti*/
+
+/*our intersts başla*/
+
+.our-interes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    height: 210px;
+}
+
+.our-interes h1 {
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.our-interes p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #5B5B5B;
+    text-align: center !important;
+}
+
+/*our intersts bitti*/
+
+/*kartlar başla*/
+.kartlar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    height: 500px;
+}
+
+.karts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    
+    width: 379px;
+    height: 386px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+    
+    padding-left: 40px;
+}
+
+.kutu-kart {
+    position: relative;
+
+    top: -30px;
+
+    width: 70px;
+    height: 70px;
+
+    background: #FFEDE6;
+    border-radius: 8px;
+}
+
+.kutu-kart img {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.kart-aciklama h3 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.kart-aciklama p {
+    font-weight: 400;
+    font-size: 18px;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    color: #5B5B5B;
+}
+
+.kart-aciklama a {
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #FF6600;
+}
+/*kartlar bitti*/
+
+
+/*içerik kartlar başla*/
+
+.icerik-kartlar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 650px;
+
+}
+
+.icerik-kart {
+    height: 590px;
+    width: 380px;
+}
+
+.icerik-kart h2 {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.icerik-kart p {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5B5B5B;
+}
+
+.icerik-kart p a {
+    font-weight: 600;
+    color: #FF6600;
+}
+
+/*foooter başla*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #2B2B2B;
+    height: 302px;
+}
+
+.footer-menu a {
+    color: #fff;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
