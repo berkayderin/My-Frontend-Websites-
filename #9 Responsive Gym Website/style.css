@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+
+	font-family: 'Barlow', sans-serif;
+}
+
+:focus {
+	outline: 0;
+}
+
+a {
+	color: #171a1d;
+}
+
+body {
+	padding-top: 70px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: white;
+	z-index: 1000;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 1rem 2rem;
+}
+
+.header-top ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	gap: 1rem;
+
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+button {
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding: 1rem 2.5rem;
+	border-radius: 0.5rem;
+	color: white;
+	background-color: #df1d2f;
+	cursor: pointer;
+}
+
+/*container-top*/
+.container-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	background-image: url(/resimler/wallpaper.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container-top h1 {
+	font-size: 5rem;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+
+.container-top p {
+	font-size: 2rem;
+	font-weight: 500;
+	color: white;
+	margin-top: 0.5rem;
+}
+
+.container-top button {
+	margin-top: 2rem;
+}
+
+/*container-top mobil uyum*/
+@media (max-width: 768px) {
+	.container-top h1 {
+		font-size: 2.5rem;
+	}
+
+	.container-top p {
+		font-size: 1.2rem;
+	}
+
+	.container-top button {
+		font-size: 1rem;
+		font-weight: 700;
+		padding: 1rem 1.5rem;
+	}
+}
+
+/*container-mid*/
+.container-mid {
+	padding: 5rem 0;
+}
+
+.container-mid-top {
+	text-align: center;
+}
+
+.container-mid-top h2 {
+	font-size: 4rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.container-mid-top p {
+	font-size: 1.3rem;
+	font-weight: 600;
+
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+
+.container-mid-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	gap: 3rem;
+	margin-top: 5rem;
+}
+
+.container-mid-bottom-left {
+	width: 355px;
+	height: 355px;
+}
+
+.container-mid-bottom-left h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 1rem;
+}
+
+.container-mid-bottom-left p {
+	font-size: 1.1rem;
+	font-weight: 500;
+	margin-top: 0.5rem;
+	line-height: 1.2rem;
+}
+
+.container-mid-bottom-left img {
+	width: 355px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.container-mid-bottom-right {
+	width: 355px;
+	height: 355px;
+}
+
+.container-mid-bottom-right h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 1rem;
+}
+
+.container-mid-bottom-right p {
+	font-size: 1.1rem;
+	font-weight: 500;
+	margin-top: 0.5rem;
+	line-height: 1.2rem;
+}
+
+.container-mid-bottom-right img {
+	width: 355px;
+	height: 200px;
+	object-fit: cover;
+}
+
+/*container-mid mobil uyum*/
+@media (max-width: 768px) {
+	.container-mid-top h2 {
+		font-size: 2rem;
+	}
+
+	.container-mid-top p {
+		font-size: 1rem;
+		text-align: center;
+		padding: 0 1rem;
+		width: 400px;
+	}
+
+	.container-mid-bottom {
+		gap: 1.5rem;
+	}
+}
+
+.container-end-top {
+	text-align: center;
+	font-size: 3rem;
+}
+
+/*card*/
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	gap: 2rem;
+	margin-top: 5rem;
+}
+
+.card-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 550px;
+}
+
+.card-1 img {
+	width: 550px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.card-text h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 1rem;
+}
+
+.card-text p {
+	font-size: 1.1rem;
+	font-weight: 500;
+	margin-top: 0.5rem;
+}
+
+/*card mobil uyum*/
+@media (max-width: 768px) {
+	.card {
+		gap: 1.5rem;
+	}
+
+	.card-1 {
+		width: 400px;
+	}
+
+	.card-1 img {
+		width: 400px;
+		height: 200px;
+		object-fit: cover;
+	}
+}
+
+/*wrapper*/
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	height: 340px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.wrapper i {
+	top: 50%;
+	height: 44px;
+	width: 44px;
+	color: #343f4f;
+	cursor: pointer;
+	font-size: 1.15rem;
+	position: absolute;
+	text-align: center;
+	line-height: 44px;
+	background: #fff;
+	border-radius: 50%;
+	transform: translateY(-50%);
+	transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+	transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i:hover {
+	background: #f2f2f2;
+}
+
+.wrapper i:first-child {
+	left: -22px;
+	display: none;
+}
+
+.wrapper i:last-child {
+	right: -22px;
+}
+
+.wrapper .carousel {
+	font-size: 0px;
+	cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+	scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+	cursor: grab;
+	scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+	pointer-events: none;
+}
+
+.carousel img {
+	height: 340px;
+	object-fit: cover;
+	user-select: none;
+	margin-left: 14px;
+	width: calc(100% / 3);
+}
+
+.carousel img:first-child {
+	margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+	.carousel img {
+		width: calc(100% / 2);
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.carousel img {
+		width: 100%;
+	}
+}
+
+/*footer*/
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+	padding: 1rem 2rem;
+}
+
+footer div {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+footer div ul {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+footer ul li a:hover {
+	color: #df1d2f;
+	font-weight: 700;
+}
+
+footer p {
+	font-size: 1.2rem;
+	font-weight: 700;
+	flex-wrap: wrap;
+}
+
+.footer-icon {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	flex-wrap: wrap;
+
+	gap: 1rem;
+}
+
+/*footer mobil uyum*/
+@media (max-width: 768px) {
+	footer {
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		gap: 1rem;
+		padding-bottom: 10px;
+	}
+
+	footer div {
+		text-align: center;
+	}
+
+	footer div ul {
+		text-align: center;
+	}
+
+	.footer-icon {
+		gap: 0.5rem;
+	}
+}
+
+/* BLOG sayfası */
+/*container-middle*/
+.container-middle {
+	padding: 50px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-mid-1,
+.container-mid-2 {
+	margin-bottom: 42px;
+	display: flex;
+	gap: 25px;
+	max-width: 900px;
+	width: 100%;
+}
+
+.mid-1,
+.mid-2 {
+	flex: 1 1 100%;
+	max-width: 100%;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.container-mid-2 img,
+.container-mid-1 img {
+	width: 100%;
+	height: auto;
+}
+/*container-middle mobil uyum */
+@media (max-width: 768px) {
+	.container-mid-1,
+	.container-mid-2 {
+		display: block;
+	}
+	.mid-2 h2,
+	.mid-1 h2 {
+		font-size: 2rem;
+	}
+
+	.mid-2 p,
+	.mid-1 p {
+		font-size: 1rem;
+		text-align: center;
+		padding: 0 1rem;
+		width: 400px;
+	}
+}
+
+/*container-end*/
+.container-end {
+	height: 80vh;
+	background-image: url(/resimler/resim5.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-items: center;
+}
+
+.container-end button {
+	margin-top: 350px;
+	margin-left: 250px;
+}
+
+/*container-end mobil uyum*/
+@media (max-width: 768px) {
+	.container-end button {
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 1rem 1rem;
+		margin-top: 350px;
+		margin-left: 150px;
+	}
+}
+
+/*fiyat sayfası*/
+.container-fiyat-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 70vh;
+	background-image: url(/resimler/iletisim.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container-fiyat-top h1 {
+	font-size: 5rem;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	backdrop-filter: blur(10px);
+	padding: 1rem 2rem;
+	border: 1px solid white;
+}
+
+.fiyat-text {
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #171a1d;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+/*fiyat sayfası mobil uyum*/
+@media (max-width: 768px) {
+	.container-fiyat-top h1 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		color: white;
+		text-align: center;
+		border: 1px solid white;
+		padding: 1rem 1rem;
+		backdrop-filter: blur(10px);
+	}
+
+	.fiyat-text {
+		font-size: 1rem;
+	}
+}
+
+/**/
+.fiyatlandirma {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	gap: 5rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+/*fiyat card*/
+.fiyat-card {
+	display: flex;
+	flex-direction: column;
+
+	width: 300px;
+	height: 500px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fiyat-card-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	gap: 1rem;
+
+	height: 50%;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.fiyat-card-top h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.fiyat-card-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+
+	padding: 1rem 2rem;
+	gap: 1rem;
+}
+
+/*sss*/
+.sss {
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: #171a1d;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.accordion {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+
+	width: 50%;
+	margin: 0 auto;
+}
+
+.active,
+.accordion:hover {
+	background-color: #6d0f19;
+}
+
+.sss-panel {
+	margin-bottom: 2rem;
+}
+
+.panel {
+	display: none;
+	overflow: hidden;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #171a1d;
+	background-color: #f1f1f1;
+	padding: 1rem 2rem;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.panel-acc {
+	margin-bottom: 10px;
+}
+
+/*accordion mobil uyum*/
+@media (max-width: 768px) {
+	.sss {
+		font-size: 2rem;
+	}
+
+	.accordion {
+		width: 100%;
+	}
+
+	.panel {
+		width: 100%;
+	}
+}
